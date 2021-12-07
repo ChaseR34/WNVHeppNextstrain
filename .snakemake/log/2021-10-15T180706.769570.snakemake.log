@@ -1,0 +1,54 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 12
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+all              1              1              1
+export           1              1              1
+traits           1              1              1
+translate        1              1              1
+total            4              1              1
+
+Select jobs to execute...
+
+[Fri Oct 15 18:07:06 2021]
+Job 9: Translating amino acid sequences
+
+
+        augur translate             --tree results/tree.nwk             --ancestral-sequences results/nt_muts.json             --reference-sequence config/wnv_outgroup.gb             --output-node-data results/aa_muts.json         
+
+[Fri Oct 15 18:07:06 2021]
+Job 7: Inferring ancestral traits for country
+
+
+        augur traits             --tree results/tree.nwk             --metadata data/metadata.tsv             --output-node-data results/traits.json             --columns country             --confidence
+        
+[Fri Oct 15 18:07:07 2021]
+Finished job 9.
+1 of 4 steps (25%) done
+[Fri Oct 15 18:07:09 2021]
+Finished job 7.
+2 of 4 steps (50%) done
+Select jobs to execute...
+
+[Fri Oct 15 18:07:09 2021]
+Job 1: Exporting data files for for auspice
+
+
+        augur export v2             --tree results/tree.nwk             --metadata data/metadata.tsv             --node-data results/branch_lengths.json results/traits.json results/nt_muts.json results/aa_muts.json             --colors config/colors.tsv             --lat-longs config/lat_longs.tsv             --auspice-config config/auspice_config.json             --output auspice/wnv.json
+        
+[Fri Oct 15 18:07:09 2021]
+Error in rule export:
+    jobid: 1
+    output: auspice/wnv.json
+    shell:
+        
+        augur export v2             --tree results/tree.nwk             --metadata data/metadata.tsv             --node-data results/branch_lengths.json results/traits.json results/nt_muts.json results/aa_muts.json             --colors config/colors.tsv             --lat-longs config/lat_longs.tsv             --auspice-config config/auspice_config.json             --output auspice/wnv.json
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /home/chase/DissertationProjects/nextstrain/wnv_nextstrain/.snakemake/log/2021-10-15T180706.769570.snakemake.log

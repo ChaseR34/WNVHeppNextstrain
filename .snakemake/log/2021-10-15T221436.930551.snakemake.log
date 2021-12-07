@@ -1,0 +1,89 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 20
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+align            1              1              1
+all              1              1              1
+ancestral        1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              1              1
+total            8              1              1
+
+Select jobs to execute...
+
+[Fri Oct 15 22:14:37 2021]
+Job 4: 
+        Aligning sequences to config/wnv_outgroup.gb
+          - filling gaps with N
+        
+
+
+        augur align             --sequences data/sequences.fasta             --reference-sequence config/wnv_outgroup.gb             --output results/aligned.fasta             --fill-gaps
+        
+[Fri Oct 15 22:18:29 2021]
+Finished job 4.
+1 of 8 steps (12%) done
+Select jobs to execute...
+
+[Fri Oct 15 22:18:29 2021]
+Job 3: Building tree
+
+
+        augur tree             --alignment results/aligned.fasta             --output results/tree_raw.nwk
+        
+[Fri Oct 15 22:19:08 2021]
+Finished job 3.
+2 of 8 steps (25%) done
+Select jobs to execute...
+
+[Fri Oct 15 22:19:08 2021]
+Job 2: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+
+        augur refine             --tree results/tree_raw.nwk             --alignment results/aligned.fasta             --metadata data/metadata.tsv             --output-tree results/tree.nwk             --output-node-data results/branch_lengths.json             --timetree             --coalescent opt             --date-confidence             --date-inference marginal             --clock-filter-iqd 4
+        
+[Fri Oct 15 22:24:11 2021]
+Finished job 2.
+3 of 8 steps (38%) done
+Select jobs to execute...
+
+[Fri Oct 15 22:24:11 2021]
+Job 5: Inferring ancestral traits for country
+
+
+        augur traits             --tree results/tree.nwk             --metadata data/metadata.tsv             --output-node-data results/traits.json             --columns country             --confidence
+        
+
+[Fri Oct 15 22:24:11 2021]
+Job 6: Reconstructing ancestral sequences and mutations
+
+
+        augur ancestral             --tree results/tree.nwk             --alignment results/aligned.fasta             --output-node-data results/nt_muts.json             --inference joint
+        
+[Fri Oct 15 22:24:23 2021]
+Finished job 6.
+4 of 8 steps (50%) done
+Select jobs to execute...
+
+[Fri Oct 15 22:24:23 2021]
+Job 7: Translating amino acid sequences
+
+
+        augur translate             --tree results/tree.nwk             --ancestral-sequences results/nt_muts.json             --reference-sequence config/wnv_outgroup.gb             --output-node-data results/aa_muts.json         
+[Fri Oct 15 22:24:24 2021]
+Finished job 7.
+5 of 8 steps (62%) done
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.
