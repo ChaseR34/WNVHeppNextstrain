@@ -11,6 +11,7 @@ lat_longs = "config/lat_longs.tsv",
 auspice_config = "config/auspice_config.json"
 
 rule index_sequences:
+    threads: 2
     message:
         """
         Creating an index of sequence composition for filtering.
@@ -69,12 +70,14 @@ rule align:
         reference = reference
     output:
         alignment = "results/aligned.fasta"
+    threads: 20
     shell:
         """
         augur align \
             --sequences {input.sequences} \
             --reference-sequence {input.reference} \
             --output {output.alignment} \
+            --nthreads {threads} \
             --fill-gaps
         """
 
@@ -84,10 +87,12 @@ rule tree:
         alignment = rules.align.output.alignment
     output:
         tree = "results/tree_raw.nwk"
+    threads: 20
     shell:
         """
         augur tree \
             --alignment {input.alignment} \
+            --nthreads {threads} \
             --output {output.tree}
         """
 
@@ -107,6 +112,7 @@ rule refine:
     output:
         tree = "results/tree.nwk",
         node_data = "results/branch_lengths.json"
+    threads: 20
     params:
         coalescent = "opt",
         date_inference = "marginal",
@@ -125,8 +131,10 @@ rule refine:
             --date-inference {params.date_inference} \
             --clock-filter-iqd {params.clock_filter_iqd}
         """
+WNVxx2111824xxCtxxAZxx20210923	 WNVxx211874xxAaxxAZxx20210730	WNVxx21494xxCqxxAZxx20210803
 
 rule ancestral:
+    threads: 20
     message: "Reconstructing ancestral sequences and mutations"
     input:
         tree = rules.refine.output.tree,
@@ -135,6 +143,7 @@ rule ancestral:
         node_data = "results/nt_muts.json"
     params:
         inference = "joint"
+    threads: 20
     shell:
         """
         augur ancestral \
@@ -152,6 +161,7 @@ rule translate:
         reference = reference
     output:
         node_data = "results/aa_muts.json"
+    threads: 20
     shell:
         """
         augur translate \
@@ -168,6 +178,7 @@ rule traits:
         metadata = input_metadata
     output:
         node_data = "results/traits.json",
+    threads: 20
     params:
         columns = "country"
     shell:
@@ -194,6 +205,7 @@ rule export:
         auspice_config = auspice_config
     output:
         auspice_json = rules.all.input.auspice_json,
+    threads: 5
     shell:
         """
         augur export v2 \
@@ -211,5 +223,6 @@ rule clean:
     params:
         "results ",
         "auspice"
+    threads: 1
     shell:
         "rm -rfv {params}"
