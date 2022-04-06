@@ -131,7 +131,6 @@ rule refine:
             --date-inference {params.date_inference} \
             --clock-filter-iqd {params.clock_filter_iqd}
         """
-WNVxx2111824xxCtxxAZxx20210923	 WNVxx211874xxAaxxAZxx20210730	WNVxx21494xxCqxxAZxx20210803
 
 rule ancestral:
     threads: 20

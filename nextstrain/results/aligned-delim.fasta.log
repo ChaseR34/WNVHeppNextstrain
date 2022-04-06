@@ -4,18 +4,18 @@ Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan
 
 Host:    ChaseDesktop (AVX2, FMA3, 50 GB RAM)
 Command: iqtree2 -nt 20 -s results/aligned-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
-Seed:    875074 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Wed Apr  6 13:20:26 2022
+Seed:    35710 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Apr  6 15:52:22 2022
 Kernel:  AVX+FMA - 20 threads (24 CPU cores detected)
 
 Reading alignment file results/aligned-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.111491 secs using 81.17% CPU
+Reading fasta file: done in 0.104109 secs using 99.98% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.0552136 secs using 516.1% CPU
+Constructing alignment: done in 0.0551819 secs using 519.2% CPU
 Alignment has 758 sequences with 11029 columns, 5518 distinct patterns
 1774 parsimony-informative, 1398 singleton sites, 7857 constant sites
                                                                                            Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 0.00417306 secs using 573.2% CPU
+Analyzing sequences: done in 0.00407799 secs using 612.6% CPU
    1  NC_009942.1                                                                                  0.00%    passed     92.57%
    2  WNV_52751_9764_Cq_NV_08162018_2018.6233                                                     15.30%    passed     37.53%
    3  KR349023.1_Ct_CA_2004.62                                                                    99.19%    passed     81.33%
@@ -561,7 +561,7 @@ Analyzing sequences: done in 0.00417306 secs using 573.2% CPU
  543  WNV_D10_Cq_AZ_09.13.17_2017.70137                                                            6.78%    passed     99.81%
  544  WNV_E10_Cq_AZ_09.13.17_2017.70137                                                            6.77%    passed     99.03%
  545  WNV_cq_AZ_10.13.16_2016.784153                                                               6.77%    passed     99.90%
- 546  WNV_MERGED_Ct_AZ_05.26.17_2017.4_DELIM-KWMBOPGKYTIVKCBPMMNJ_2_DELIM-WIWGDQKSCPCQLFAGZJKL_    6.83%    passed     99.82%
+ 546  WNV_MERGED_Ct_AZ_05.26.17_2017.4_DELIM-QHYHJNRFHVQCOAXYSVMG_2_DELIM-ZZIFZXOEKTQOYPIOOOXU_    6.83%    passed     99.82%
  547  WNV_E9_Ct_AZ_09.19.17_2017.717808                                                            6.82%    passed     99.85%
  548  WNV_MERGED_Cq_AZ_06.14.17_2017.452055                                                        6.85%    passed     99.70%
  549  WNV_MERGED_Cq_AZ_06.13.17_2017.449315                                                        6.84%    passed     99.83%
@@ -727,7 +727,7 @@ Analyzing sequences: done in 0.00417306 secs using 573.2% CPU
  709  WNV2111763xxCtxxAZxx20210923                                                                 1.85%    passed     99.93%
  710  WNV_214962_Cq_AZ_20210903                                                                    2.40%    passed     99.65%
  711  WNV_215439Cq_AZ_20210824                                                                     2.36%    passed     99.53%
- 712  WNVxx211874xxAaxxAZxx20210730                                                                4.00%    passed     98.36%
+ 712  WNVxx211874xxCqxxAZxx20210730                                                                4.00%    passed     98.36%
  713  WNVxx211965xxCtxxAZxx20210730                                                               58.16%    passed     86.92%
  714  WNVx218980xAaxAZx20210908                                                                   34.71%    passed     83.27%
  715  WNVxUSDAxD8x202108                                                                          11.14%    passed     78.66%
@@ -787,8 +787,8 @@ NOTE: WNV_17SP2AWAS002_Ct_UT_09.19.17_2017.717808 is identical to WNV_17SP2_UT_0
 NOTE: WNV_17SP3FSGE0092_Ct_UT_09.19.17_2017.717808 is identical to WNV_17SP3_UT_09.18.17_2017.715068 but kept for subsequent analysis
 NOTE: KR348936.1_Cq_CA_2008.74 is identical to KR348917.1_Ct_CA_2008.37 but kept for subsequent analysis
 NOTE: KR348975.1_Cq_CA_2004.19 is identical to KR348974.1_Cs_CA_2004.19 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.0103986 secs using 1935% CPU
-Identifying sites to remove: done in 0.0445838 secs using 549.3% CPU
+Checking for duplicate sequences: done in 0.00992427 secs using 2019% CPU
+Identifying sites to remove: done in 0.0450519 secs using 617.1% CPU
 NOTE: 30 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: WNV_2314zSCL002_Ct_UT_08.19.13_2013.632877 (identical to WNV_21SP2BzSGE007RG_Ct_UT_08.05.13_2013.594521) is ignored but added at the end
 NOTE: WNV_243zSCL004_Ct_UT_08.26.13_2013.652055 (identical to WNV_21SP2BzSGE007RG_Ct_UT_08.05.13_2013.594521) is ignored but added at the end
@@ -828,56 +828,55 @@ Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.012 
 
 NOTE: 130 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -293857.166
-2. Current log-likelihood: -265403.484
-3. Current log-likelihood: -253627.198
-4. Current log-likelihood: -253613.811
-5. Current log-likelihood: -253598.701
-6. Current log-likelihood: -253585.679
-Optimal log-likelihood: -253585.414
-Rate parameters:  A-C: 1.14069  A-G: 8.21468  A-T: 1.32960  C-G: 0.21545  C-T: 37.61370  G-T: 1.00000
+1. Initial log-likelihood: -296129.809
+2. Current log-likelihood: -266923.631
+3. Current log-likelihood: -255307.156
+4. Current log-likelihood: -255276.441
+5. Current log-likelihood: -255246.401
+Optimal log-likelihood: -255246.337
+Rate parameters:  A-C: 1.17472  A-G: 8.29495  A-T: 1.32770  C-G: 0.21637  C-T: 38.09706  G-T: 1.00000
 Base frequencies:  A: 0.273  C: 0.222  G: 0.289  T: 0.217
-Parameters optimization took 6 rounds (6.332 sec)
+Parameters optimization took 5 rounds (5.366 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.315107 secs using 2016% CPU
-Computing ML distances took 0.320600 sec (of wall-clock time) 6.369166 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.00652816 secs using 878.3% CPU
-Constructing RapidNJ tree: done in 6.70199 secs using 481% CPU
-Computing RapidNJ tree took 6.708920 sec (of wall-clock time) 32.305111 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -64225.200
+Calculating distance matrix: done in 0.312947 secs using 2012% CPU
+Computing ML distances took 0.318101 sec (of wall-clock time) 6.321422 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00644003 secs using 827.6% CPU
+Constructing RapidNJ tree: done in 6.63317 secs using 503.8% CPU
+Computing RapidNJ tree took 6.639990 sec (of wall-clock time) 33.484519 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -64343.486
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-Optimizing NNI: done in 3.99401 secs using 1992% CPU
+Optimizing NNI: done in 5.20151 secs using 1994% CPU
 Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -63267.910
-Optimizing NNI: done in 35.4586 secs using 1997% CPU
+BETTER TREE FOUND at iteration 1: -63266.437
+Optimizing NNI: done in 36.6138 secs using 1997% CPU
 Finish initializing candidate tree set (4)
-Current best tree score: -63267.910 / CPU time: 41.066
+Current best tree score: -63266.437 / CPU time: 43.664
 Number of iterations: 2
-TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:55s
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:57s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -63267.910
-Optimal log-likelihood: -63267.908
-Rate parameters:  A-C: 1.00167  A-G: 7.06227  A-T: 1.21058  C-G: 0.44764  C-T: 23.26487  G-T: 1.00000
+1. Initial log-likelihood: -63266.437
+Optimal log-likelihood: -63266.427
+Rate parameters:  A-C: 1.02308  A-G: 7.22774  A-T: 1.24039  C-G: 0.45976  C-T: 23.89416  G-T: 1.00000
 Base frequencies:  A: 0.273  C: 0.222  G: 0.289  T: 0.217
-Parameters optimization took 1 rounds (0.335 sec)
-BEST SCORE FOUND : -63267.908
+Parameters optimization took 1 rounds (0.336 sec)
+BEST SCORE FOUND : -63266.427
 Total tree length: 0.647
 
 Total number of iterations: 2
-CPU time used for tree search: 819.949 sec (0h:13m:39s)
-Wall-clock time used for tree search: 41.068 sec (0h:0m:41s)
-Total CPU time used: 1017.279 sec (0h:16m:57s)
-Total wall-clock time used: 56.323 sec (0h:0m:56s)
+CPU time used for tree search: 871.940 sec (0h:14m:31s)
+Wall-clock time used for tree search: 43.666 sec (0h:0m:43s)
+Total CPU time used: 1050.822 sec (0h:17m:30s)
+Total wall-clock time used: 57.875 sec (0h:0m:57s)
 
 Analysis results written to: 
   IQ-TREE report:                results/aligned-delim.fasta.iqtree
@@ -885,4 +884,4 @@ Analysis results written to:
   Likelihood distances:          results/aligned-delim.fasta.mldist
   Screen log file:               results/aligned-delim.fasta.log
 
-Date and Time: Wed Apr  6 13:21:23 2022
+Date and Time: Wed Apr  6 15:53:20 2022
