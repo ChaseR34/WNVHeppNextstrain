@@ -1,6 +1,7 @@
 import pathlib
 from Bio import SeqIO, Seq
 
+
 class ConSeq:
     def __init__(self, record: SeqIO):
         self.name = record.id
@@ -12,9 +13,8 @@ class ConSeq:
         self.G = record.seq.count('G')
         self.N = record.seq.count('N')
 
-        self.percent_sequenced = round(1 - (self.N/self.length), 2)
+        self.percent_sequenced = round(1 - (self.N / self.length), 2)
         self.output_string = '\t'.join([self.name, str(self.length), str(self.percent_sequenced)]) + '\n'
-
 
 
 def get_sequence_file_path(dir_path: pathlib.Path) -> list:
@@ -55,3 +55,12 @@ def combine_sequences(seq_directory: str, output_file: str) -> None:
 
     SeqIO.write(sequences_combined, output_file, "fasta")
 
+
+def main():
+    combine_sequences(
+        "/home/chase/DissertationProjects/nextstrain/WNV_Nextstrain_Analysis/sample_processing/OutputDirectory/consensus",
+        "/home/chase/DissertationProjects/nextstrain/WNV_Nextstrain_Analysis/sample_processing/OutputDirectory/consensus/combined_sequences.fasta")
+
+
+if __name__ == "__main__":
+    main()
