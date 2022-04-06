@@ -1,6 +1,6 @@
 source	Public	#4ef442
 source	Hepp	#8341f4
-
+		
 state	AZ	#FF0000
 state	BCNM	#FFFF00
 state	CA	#00EAFF
@@ -26,3 +26,10 @@ state	TX	#000000
 state	UT	#737373
 state	WA	#CCCCCC
 state	WI	#CFCFCC
+vector	NA	#808080
+vector	Aa	#FFA500
+host	MourninDove	#CC8899
+host	NA	#808080
+vector_host	Aa	#FFA500
+vector_host	MourningDove	#CC8899
+vector_host	NA	#808080

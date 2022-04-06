@@ -1,7 +1,7 @@
 {
-  "title": "Real-time tracking of West Nile virus evolution",
+  "title": "West Nile virus dispersal in the American Southwest",
     "maintainers": [
-    {"name": "Crystal Hepp", "url": "https://directory.nau.edu/person/cmh574"}
+    {"name": "Chase Ridenour and Crystal Hepp", "url": "https://directory.nau.edu/person/cmh574"}
   ],
   "colorings": [
     {
@@ -32,6 +32,11 @@
     {
       "key": "county",
       "title": "County",
+      "type": "categorical"
+    },
+    {
+      "key": "vector_host",
+      "title": "Vector or Host",
       "type": "categorical"
     }
 

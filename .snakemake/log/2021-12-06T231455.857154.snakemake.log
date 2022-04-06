@@ -1,0 +1,93 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 15
+Rules claiming more threads will be scaled down.
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+align            1              1              1
+all              1              1              1
+ancestral        1              1              1
+export           1              1              1
+refine           1              1              1
+traits           1              1              1
+translate        1              1              1
+tree             1              1              1
+total            8              1              1
+
+Select jobs to execute...
+
+[Mon Dec  6 23:14:56 2021]
+Job 4: 
+        Aligning sequences to config/wnv_outgroup.gb
+          - filling gaps with N
+        
+
+[Mon Dec  6 23:18:52 2021]
+Finished job 4.
+1 of 8 steps (12%) done
+Select jobs to execute...
+
+[Mon Dec  6 23:18:52 2021]
+Job 3: Building tree
+
+[Mon Dec  6 23:19:37 2021]
+Finished job 3.
+2 of 8 steps (25%) done
+Select jobs to execute...
+
+[Mon Dec  6 23:19:37 2021]
+Job 2: 
+        Refining tree
+          - estimate timetree
+          - use opt coalescent timescale
+          - estimate marginal node dates
+          - filter tips more than 4 IQDs from clock expectation
+        
+
+[Mon Dec  6 23:25:39 2021]
+Finished job 2.
+3 of 8 steps (38%) done
+Select jobs to execute...
+
+[Mon Dec  6 23:25:39 2021]
+Job 5: Inferring ancestral traits for country
+
+
+[Mon Dec  6 23:25:39 2021]
+Job 6: Reconstructing ancestral sequences and mutations
+
+[Mon Dec  6 23:25:53 2021]
+Finished job 6.
+4 of 8 steps (50%) done
+Select jobs to execute...
+
+[Mon Dec  6 23:25:53 2021]
+Job 7: Translating amino acid sequences
+
+[Mon Dec  6 23:25:54 2021]
+Finished job 7.
+5 of 8 steps (62%) done
+[Mon Dec  6 23:45:19 2021]
+Finished job 5.
+6 of 8 steps (75%) done
+Select jobs to execute...
+
+[Mon Dec  6 23:45:19 2021]
+Job 1: Exporting data files for for auspice
+
+[Mon Dec  6 23:45:21 2021]
+Finished job 1.
+7 of 8 steps (88%) done
+Select jobs to execute...
+
+[Mon Dec  6 23:45:21 2021]
+localrule all:
+    input: auspice/wnv.json
+    jobid: 0
+    resources: tmpdir=/tmp
+
+[Mon Dec  6 23:45:21 2021]
+Finished job 0.
+8 of 8 steps (100%) done
+Complete log: /home/chase/DissertationProjects/nextstrain/wnv_nextstrain/.snakemake/log/2021-12-06T231455.857154.snakemake.log
