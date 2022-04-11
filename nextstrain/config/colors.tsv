@@ -3,28 +3,28 @@ source	Hepp	#8341f4
 		
 state	AZ	#FF0000
 state	BCNM	#FFFF00
-state	CA	#00EAFF
+state	CA	#5784db
 state	CO	#AA00FF
-state	FL	#FF7F00
-state	GA	#BFFF00
-state	IL	#0095FF
-state	IN	#FF00AA
-state	LA	#FFD400
-state	MD	#6AFF00
-state	MI	#0040FF
-state	MT	#EDB9B9
-state	NE	#B9D7ED
-state	NJ	#E7E9B9
-state	NM	#DCB9ED
-state	NV	#B9EDE0
-state	NY	#8F2323
-state	OH	#23628F
-state	SD	#8F6A23
-state	SONM	#6B238F
-state	TAMM	#4F8F23
-state	TX	#000000
-state	UT	#737373
-state	WA	#CCCCCC
+state	FL	#db5f57
+state	GA	#dbae57
+state	IL	#b9db57
+state	IN	#69db57
+state	LA	#57db94
+state	MD	#57d3db
+state	MI	#00EAFF
+state	MT	#7957db
+state	NE	#c957db
+state	NJ	#db579e
+state	NM	#d1c4c1
+state	NV	#a38984
+state	NY	#8a695a
+state	OH	#baa774
+state	SD	#e8e28d
+state	SONM	#d1f690
+state	TAMM	#75e37d
+state	TX	#15d06a
+state	UT	#00a8d0
+state	WA	#1470d6
 state	WI	#CFCFCC
 vector	NA	#808080
 vector	Aa	#FFA500
@@ -33,3 +33,14 @@ host	NA	#808080
 vector_host	Aa	#FFA500
 vector_host	MourningDove	#CC8899
 vector_host	NA	#808080
+county	MARICOPA	#FF0000
+county	SWMAC	#5722db
+county	CLARK	#AA00FF
+county	COAV	#5784db
+county	MTDOH	#dbFF57
+county	COCONINO	#EE9911
+county	WADOH	#b9db57
+county	Yuma	#69db57
+
+
+

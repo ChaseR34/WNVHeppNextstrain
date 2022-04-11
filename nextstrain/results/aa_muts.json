@@ -1347,7 +1347,7 @@
     "NODE_0000000": {
       "aa_muts": {},
       "aa_sequences": {
-        "WNVNY99_gp1": "MSKKPGGPGKSRAVNMLKRGMPRVLSLIGLKRAMLSLIDGKGPIRFVLALLAFFRFTAIAPTRAVLDRWRGVNKQTAMKHLLSFKKELGTLTSAINRRSSKQKKRGGKTGIAVMIGLIASVGAVTLSNFQGKVMMTVNATDVTDVITIPTAAGKNLCIVRAMDVGYMCDDTITYECPVLSAGNDPEDIDCWCTKSAVYVRYGRCTKTRHSRRSRRSLTVQTHGESTLANKKGAWMDSTKATRYLVKTESWILRNPGYALVAAVIGWMLGSNTMQRVVFVVLLLLVAPAYSFNCLGMSNRDFLEGVSGATWVDLVLEGDSCVTIMSKDKPTIDVKMMNMEAANLAEVRSYCYLATVSDLSTKAACPTMGEAHNDKRADPAFVCRQGVVDRGWGNGCGLFGKGSIDTCAKFACSTKAIGRTILKENIKYEVAIFVHGPTTVESHGNYSTQAGATQAGRFSITPAAPSYTLKLGEYGEVTVDCEPRSGIDTNAYYVMTVGTKTFLVHREWFMDLNLPWSSAGSTVWRNRETLMEFEEPHATKQSVIALGSQEGALHQALAGAIPVEFSSNTVKLTSGHLKCRVKMEKLQLKGTTYGVCSKAFKFLGTPADTGHGTVVLELQYTGTDGPCKVPISSVASLNDLTPVGRLVTVNPFVSVATANAKVLIELEPPFGDSYIVVGRGEQQINHHWHKSGSSIGKAFTTTLKGAQRLAALGDTAWDFGSVGGVFTSVGKAVHQVFGGAFRSLFGGMSWITQGLLGALLLWMGINARDRSIALTFLAVGGVLLFLSVNVHADTGCAIDISRQELRCGSGVFIHNDVEAWMDRYKYYPETPQGLAKIIQKAHKEGVCGLRSVSRLEHQMWEAVKDELNTLLKENGVDLSVVVEKQEGMYKSAPKRLTATTEKLEIGWKAWGKSILFAPELANNTFVVDGPETKECPTQNRAWNSLEVEDFGFGLTSTRMFLKVRESNTTECDSKIIGTAVKNNLAIHSDLSYWIESRLNDTWKLERAVLGEVKSCTWPETHTLWGDGILESDLIIPVTLAGPRSNHNRRPGYKTQNQGPWDEGRVEIDFDYCPGTTVTLSESCGHRGPATRTTTESGKLITDWCCRSCTLPPLRYQTDSGCWYGMEIRPQRHDEKTLVQSQVNAYNADMIDPFSVGPSGRVLGHPGGPSQEVDSQDQHASYTDCSASPGVWGHYLH*"
+        "WNVNY99_gp1": "MSKKPGGPGKSRAVNMLKRGMPRVLSLIGLKRAMLSLIDGKGPIRFVLALLAFFRFTAIAPTRAVLDRWRGVNKQTAMKHLLSFKKELGTLTSAINRRSSKQKKRGGKTGIAVMIGLIASVGAVTLSNFQGKVMMTVNATDVTDVITIPTAAGKNLCIVRAMDVGYMCDDTITYECPVLSAGNDPEDIDCWCTKSAVYVRYGRCTKTRHSRRSRRSLTVQTHGESTLANKKGAWMDSTKATRYLVKTESWILRNPGYALVAAVIGWMLGSNTMQRVVFVVLLLLVAPAYSFNCLGMSNRDFLEGVSGATWVDLVLEGDSCVTIMSKDKPTIDVKMMNMEAANLAEVRSYCYLATVSDLSTKAACPTMGEAHNDKRADPAFVCRQGVVDRGWGNGCGLFGKGSIDTCAKFACSTKAIGRTILKENIKYEVAIFVHGPTTVESHGNYSTQVGATQAGRFSITPAAPSYTLKLGEYGEVTVDCEPRSGIDTNAYYVMTVGTKTFLVHREWFMDLNLPWSSAGSTVWRNRETLMEFEEPHATKQSVIALGSQEGALHQALAGAIPVEFSSNTVKLTSGHLKCRVKMEKLQLKGTTYGVCSKAFKFLGTPADTGHGTVVLELQYTGTDGPCKVPISSVASLNDLTPVGRLVTVNPFVSVATANAKVLIELEPPFGDSYIVVGRGEQQINHHWHKSGSSIGKAFTTTLKGAQRLAALGDTAWDFGSVGGVFTSVGKAVHQVFGGAFRSLFGGMSWITQGLLGALLLWMGINARDRSIALTFLAVGGVLLFLSVNVHADTGCAIDISRQELRCGSGVFIHNDVEAWMDRYKYYPETPQGLAKIIQKAHKEGVCGLRSVSRLEHQMWEAVKDELNTLLKENGVDLSVVVEKQEGMYKSAPKRLTATTEKLEIGWKAWGKSILFAPELANNTFVVDGPETKECPTQNRAWNSLEVEDFGFGLTSTRMFLKVRESNTTECDSKIIGTAVKNNLAIHSDLSYWIESRLNDTWKLERAVLGEVKSCTWPETHTLWGDGILESDLIIPVTLAGPRSNHNRRPGYKTQNQGPWDEGRVEIDFDYCPGTTVTLSESCGHRGPATRTTTESGKLITDWCCRSCTLPPLRYQTDSGCWYGMEIRPQRHDEKTLVQSQVNAYNADMIDPFSVGPSGRVLGHPGGPSQEVDSQDQHASYTDCSASPGVWGHYLH*"
       }
     },
     "NODE_0000003": {
@@ -1356,6 +1356,11 @@
       }
     },
     "NODE_0000005": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000006": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -1380,6 +1385,11 @@
         ]
       }
     },
+    "NODE_0000011": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
     "NODE_0000012": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -1387,9 +1397,7 @@
     },
     "NODE_0000013": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "A449V"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000014": {
@@ -1412,12 +1420,24 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000020": {
+    "NODE_0000018": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
+    "NODE_0000020": {
+      "aa_muts": {
+        "WNVNY99_gp1": [
+          "V449A"
+        ]
+      }
+    },
     "NODE_0000021": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000022": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -1465,11 +1485,6 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000033": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000034": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -1480,12 +1495,12 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000037": {
+    "NODE_0000036": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000038": {
+    "NODE_0000037": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -1500,17 +1515,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000041": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000042": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000043": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -1520,23 +1525,14 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000047": {
+    "NODE_0000046": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000048": {
-      "aa_muts": {
-        "WNVNY99_gp1": [
-          "V279I"
-        ]
-      }
-    },
     "NODE_0000049": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "R1159C"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000050": {
@@ -1549,13 +1545,6 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000052": {
-      "aa_muts": {
-        "WNVNY99_gp1": [
-          "V721I"
-        ]
-      }
-    },
     "NODE_0000053": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -1563,7 +1552,16 @@
     },
     "NODE_0000054": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "V279I"
+        ]
+      }
+    },
+    "NODE_0000055": {
+      "aa_muts": {
+        "WNVNY99_gp1": [
+          "R1159C"
+        ]
       }
     },
     "NODE_0000056": {
@@ -1573,12 +1571,17 @@
     },
     "NODE_0000057": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "S36G",
-          "G116S",
-          "T1108S",
-          "S1173G"
-        ]
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000058": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000060": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000061": {
@@ -1593,11 +1596,7 @@
     },
     "NODE_0000063": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "A112V",
-          "V778I",
-          "T899R"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000064": {
@@ -1607,9 +1606,7 @@
     },
     "NODE_0000065": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "I111S"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000066": {
@@ -1624,23 +1621,19 @@
     },
     "NODE_0000068": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "P1187S"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000069": {
       "aa_muts": {
         "WNVNY99_gp1": [
-          "L960M"
+          "I38T"
         ]
       }
     },
     "NODE_0000070": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "M820I"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000071": {
@@ -1663,16 +1656,6 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000075": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000076": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000077": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -1691,7 +1674,7 @@
     "NODE_0000080": {
       "aa_muts": {
         "WNVNY99_gp1": [
-          "S2F"
+          "K901N"
         ]
       }
     },
@@ -1702,10 +1685,7 @@
     },
     "NODE_0000082": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "V314I",
-          "Y1180S"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000083": {
@@ -1713,17 +1693,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000084": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000085": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000086": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -1735,7 +1705,9 @@
     },
     "NODE_0000088": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "V721I"
+        ]
       }
     },
     "NODE_0000089": {
@@ -1745,14 +1717,16 @@
     },
     "NODE_0000090": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "T109A"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000091": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "A112V",
+          "V778I",
+          "T899R"
+        ]
       }
     },
     "NODE_0000092": {
@@ -1760,16 +1734,47 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000098": {
+    "NODE_0000093": {
+      "aa_muts": {
+        "WNVNY99_gp1": [
+          "I111S"
+        ]
+      }
+    },
+    "NODE_0000094": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000099": {
+    "NODE_0000095": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000096": {
       "aa_muts": {
         "WNVNY99_gp1": [
-          "K901N"
+          "P1187S"
         ]
+      }
+    },
+    "NODE_0000097": {
+      "aa_muts": {
+        "WNVNY99_gp1": [
+          "L960M"
+        ]
+      }
+    },
+    "NODE_0000098": {
+      "aa_muts": {
+        "WNVNY99_gp1": [
+          "M820I"
+        ]
+      }
+    },
+    "NODE_0000099": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000100": {
@@ -1792,6 +1797,11 @@
         "WNVNY99_gp1": []
       }
     },
+    "NODE_0000104": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
     "NODE_0000105": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -1799,7 +1809,12 @@
     },
     "NODE_0000106": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "S36G",
+          "G116S",
+          "T1108S",
+          "S1173G"
+        ]
       }
     },
     "NODE_0000107": {
@@ -1812,37 +1827,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000110": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000111": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000112": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000113": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000114": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000115": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000116": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -1855,18 +1840,16 @@
     "NODE_0000118": {
       "aa_muts": {
         "WNVNY99_gp1": [
-          "I38T"
+          "S2F"
         ]
-      }
-    },
-    "NODE_0000119": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
       }
     },
     "NODE_0000120": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "V314I",
+          "Y1180S"
+        ]
       }
     },
     "NODE_0000121": {
@@ -1889,17 +1872,12 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000126": {
+    "NODE_0000127": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000128": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000130": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -1914,17 +1892,12 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000133": {
+    "NODE_0000134": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000135": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000136": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -1936,23 +1909,23 @@
     },
     "NODE_0000138": {
       "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000139": {
+      "aa_muts": {
         "WNVNY99_gp1": [
           "L773F",
           "Y826H"
         ]
       }
     },
-    "NODE_0000139": {
+    "NODE_0000140": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "G443V",
           "R1159C"
         ]
-      }
-    },
-    "NODE_0000140": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
       }
     },
     "NODE_0000141": {
@@ -1980,12 +1953,12 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000146": {
+    "NODE_0000147": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000147": {
+    "NODE_0000148": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -1997,32 +1970,22 @@
     },
     "NODE_0000150": {
       "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000151": {
+      "aa_muts": {
         "WNVNY99_gp1": [
           "S306A"
         ]
       }
     },
-    "NODE_0000151": {
+    "NODE_0000152": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000154": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000155": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000156": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000157": {
+    "NODE_0000153": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2033,6 +1996,11 @@
       }
     },
     "NODE_0000159": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000160": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2049,34 +2017,29 @@
     },
     "NODE_0000163": {
       "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000164": {
+      "aa_muts": {
         "WNVNY99_gp1": [
           "K230R"
         ]
       }
     },
-    "NODE_0000165": {
+    "NODE_0000166": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "D1069E"
         ]
       }
     },
-    "NODE_0000166": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000167": {
+    "NODE_0000168": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000169": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000171": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2087,11 +2050,6 @@
       }
     },
     "NODE_0000173": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000174": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2108,14 +2066,15 @@
     },
     "NODE_0000177": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "K581R"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000178": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "T109A",
+          "R1159C"
+        ]
       }
     },
     "NODE_0000179": {
@@ -2124,6 +2083,21 @@
       }
     },
     "NODE_0000180": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000181": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000182": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000183": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2143,11 +2117,6 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000187": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000188": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -2155,14 +2124,16 @@
     },
     "NODE_0000189": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "L602I"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000190": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "S99G",
+          "M114V",
+          "T604N"
+        ]
       }
     },
     "NODE_0000191": {
@@ -2190,9 +2161,16 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000198": {
+    "NODE_0000197": {
       "aa_muts": {
         "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000198": {
+      "aa_muts": {
+        "WNVNY99_gp1": [
+          "L602I"
+        ]
       }
     },
     "NODE_0000199": {
@@ -2202,17 +2180,22 @@
     },
     "NODE_0000200": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "K581R"
+        ]
       }
     },
     "NODE_0000201": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "T498A"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000202": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000203": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2227,46 +2210,32 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000206": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000207": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000208": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000209": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000210": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000211": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000212": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "R1159C"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000213": {
-      "aa_muts": {
-        "WNVNY99_gp1": [
-          "T76I"
-        ]
-      }
-    },
-    "NODE_0000214": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000215": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000216": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2283,78 +2252,70 @@
     },
     "NODE_0000219": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "V121A"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000220": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "R769K",
-          "Q937R"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000221": {
       "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000222": {
-      "aa_muts": {
         "WNVNY99_gp1": [
-          "S565T",
-          "P929A",
-          "T931S"
+          "T498A"
         ]
       }
     },
     "NODE_0000223": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "V137I",
-          "I913V"
-        ]
+        "WNVNY99_gp1": []
       }
     },
-    "NODE_0000224": {
+    "NODE_0000225": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000226": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "G89E",
-          "S890P"
-        ]
-      }
-    },
-    "NODE_0000227": {
-      "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000228": {
+    "NODE_0000227": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "N922S"
         ]
       }
     },
-    "NODE_0000231": {
+    "NODE_0000228": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000232": {
+    "NODE_0000229": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000230": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000231": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "S2F",
           "N15D",
           "I985V"
         ]
+      }
+    },
+    "NODE_0000232": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000233": {
@@ -2374,34 +2335,24 @@
     },
     "NODE_0000236": {
       "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000237": {
-      "aa_muts": {
         "WNVNY99_gp1": [
           "T413A",
           "A1185V"
         ]
       }
     },
-    "NODE_0000238": {
+    "NODE_0000237": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "I764T"
         ]
       }
     },
-    "NODE_0000239": {
+    "NODE_0000238": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "V1154A"
         ]
-      }
-    },
-    "NODE_0000240": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
       }
     },
     "NODE_0000241": {
@@ -2409,24 +2360,18 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000242": {
+    "NODE_0000243": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "R1159C"
+        ]
       }
     },
-    "NODE_0000245": {
+    "NODE_0000244": {
       "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000246": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000247": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "T76I"
+        ]
       }
     },
     "NODE_0000248": {
@@ -2441,29 +2386,39 @@
     },
     "NODE_0000250": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "V121A"
+        ]
       }
     },
     "NODE_0000251": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "R769K",
+          "Q937R"
+        ]
       }
     },
     "NODE_0000252": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "A451V"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000253": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "S565T",
+          "P929A",
+          "T931S"
+        ]
       }
     },
     "NODE_0000254": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "V137I",
+          "I913V"
+        ]
       }
     },
     "NODE_0000255": {
@@ -2473,14 +2428,15 @@
     },
     "NODE_0000256": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "A1185V"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000257": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "G89E",
+          "S890P"
+        ]
       }
     },
     "NODE_0000258": {
@@ -2518,11 +2474,6 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000265": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000266": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -2545,7 +2496,9 @@
     },
     "NODE_0000270": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "A451V"
+        ]
       }
     },
     "NODE_0000271": {
@@ -2565,7 +2518,9 @@
     },
     "NODE_0000274": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "A1185V"
+        ]
       }
     },
     "NODE_0000275": {
@@ -2595,9 +2550,7 @@
     },
     "NODE_0000280": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "T572A"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000281": {
@@ -2625,14 +2578,22 @@
         "WNVNY99_gp1": []
       }
     },
+    "NODE_0000286": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
     "NODE_0000287": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "F725L"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000288": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000289": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2659,16 +2620,12 @@
     },
     "NODE_0000294": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "Y826N"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000295": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "V263A"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000296": {
@@ -2683,7 +2640,9 @@
     },
     "NODE_0000298": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "T572A"
+        ]
       }
     },
     "NODE_0000299": {
@@ -2708,10 +2667,12 @@
     },
     "NODE_0000303": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "F725L"
+        ]
       }
     },
-    "NODE_0000305": {
+    "NODE_0000304": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2748,10 +2709,19 @@
     },
     "NODE_0000312": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "Y826N"
+        ]
       }
     },
     "NODE_0000313": {
+      "aa_muts": {
+        "WNVNY99_gp1": [
+          "V263A"
+        ]
+      }
+    },
+    "NODE_0000314": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2766,14 +2736,52 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000320": {
+    "NODE_0000317": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "E1004D"
-        ]
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000318": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000319": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000321": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000322": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000323": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000324": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000325": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000326": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000327": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2783,7 +2791,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000330": {
+    "NODE_0000329": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2803,39 +2811,11 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000334": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000335": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000336": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000337": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000338": {
       "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000339": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000341": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "E1004D"
+        ]
       }
     },
     "NODE_0000342": {
@@ -2843,17 +2823,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000343": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000344": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000345": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -2918,11 +2888,6 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000359": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000360": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -2945,11 +2910,7 @@
     },
     "NODE_0000365": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "S99G",
-          "M114V",
-          "T604N"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000366": {
@@ -3020,26 +2981,21 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000380": {
+    "NODE_0000381": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000382": {
       "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000384": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "K10R"
+        ]
       }
     },
     "NODE_0000385": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "K10R"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000386": {
@@ -3092,12 +3048,12 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000396": {
+    "NODE_0000397": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000399": {
+    "NODE_0000398": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3127,16 +3083,24 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000408": {
+    "NODE_0000407": {
       "aa_muts": {
         "WNVNY99_gp1": [
-          "Q1140R"
+          "V724M",
+          "Y1144F"
         ]
+      }
+    },
+    "NODE_0000408": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000409": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "Q1140R"
+        ]
       }
     },
     "NODE_0000410": {
@@ -3155,11 +3119,6 @@
       }
     },
     "NODE_0000413": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000414": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3184,12 +3143,12 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000419": {
+    "NODE_0000420": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000420": {
+    "NODE_0000421": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "M887I",
@@ -3197,19 +3156,19 @@
         ]
       }
     },
-    "NODE_0000421": {
+    "NODE_0000422": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "L1109F"
         ]
       }
     },
-    "NODE_0000422": {
+    "NODE_0000423": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000423": {
+    "NODE_0000424": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3226,15 +3185,15 @@
     },
     "NODE_0000427": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "K103N",
-          "T1181A"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000428": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "K103N",
+          "T1181A"
+        ]
       }
     },
     "NODE_0000429": {
@@ -3242,23 +3201,28 @@
         "WNVNY99_gp1": []
       }
     },
+    "NODE_0000430": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
     "NODE_0000431": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000432": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "S36N"
         ]
       }
     },
-    "NODE_0000432": {
+    "NODE_0000433": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "F775L"
         ]
-      }
-    },
-    "NODE_0000433": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
       }
     },
     "NODE_0000434": {
@@ -3271,26 +3235,31 @@
         "WNVNY99_gp1": []
       }
     },
+    "NODE_0000436": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
     "NODE_0000437": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000440": {
+    "NODE_0000438": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000441": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "N765S"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000442": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "N765S"
+        ]
       }
     },
     "NODE_0000443": {
@@ -3298,7 +3267,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000444": {
+    "NODE_0000445": {
       "aa_muts": {
         "WNVNY99_gp1": [
           "K4R",
@@ -3307,22 +3276,7 @@
         ]
       }
     },
-    "NODE_0000445": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000446": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000447": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000450": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3352,12 +3306,17 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000456": {
+    "NODE_0000457": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000457": {
+    "NODE_0000458": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000459": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3397,11 +3356,6 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000468": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000469": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -3412,7 +3366,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000471": {
+    "NODE_0000472": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3442,28 +3396,33 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000480": {
+    "NODE_0000478": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000479": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000481": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "A228V"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000482": {
       "aa_muts": {
         "WNVNY99_gp1": [
-          "D1060N"
+          "A228V"
         ]
       }
     },
     "NODE_0000483": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "D1060N"
+        ]
       }
     },
     "NODE_0000484": {
@@ -3478,12 +3437,22 @@
     },
     "NODE_0000486": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "S1118N"
+        ]
       }
     },
     "NODE_0000487": {
       "aa_muts": {
         "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000488": {
+      "aa_muts": {
+        "WNVNY99_gp1": [
+          "I264V",
+          "S1184F"
+        ]
       }
     },
     "NODE_0000489": {
@@ -3501,11 +3470,6 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000492": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000493": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -3513,9 +3477,7 @@
     },
     "NODE_0000494": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "V1036A"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000495": {
@@ -3525,6 +3487,18 @@
     },
     "NODE_0000496": {
       "aa_muts": {
+        "WNVNY99_gp1": [
+          "T1015M"
+        ]
+      }
+    },
+    "NODE_0000498": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000499": {
+      "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
@@ -3533,26 +3507,22 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000504": {
+    "NODE_0000501": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000505": {
+    "NODE_0000502": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "V1160I"
-        ]
+        "WNVNY99_gp1": []
       }
     },
-    "NODE_0000506": {
+    "NODE_0000503": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "R769K"
-        ]
+        "WNVNY99_gp1": []
       }
     },
-    "NODE_0000507": {
+    "NODE_0000504": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3567,9 +3537,16 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000511": {
+    "NODE_0000510": {
       "aa_muts": {
         "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000511": {
+      "aa_muts": {
+        "WNVNY99_gp1": [
+          "V1036A"
+        ]
       }
     },
     "NODE_0000512": {
@@ -3587,11 +3564,21 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000519": {
+    "NODE_0000515": {
       "aa_muts": {
         "WNVNY99_gp1": [
-          "Y888F"
+          "S99G"
         ]
+      }
+    },
+    "NODE_0000516": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000518": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000520": {
@@ -3599,17 +3586,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000521": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000522": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000523": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3634,42 +3611,24 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000528": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000529": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000530": {
       "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000531": {
-      "aa_muts": {
         "WNVNY99_gp1": [
-          "S1118N"
+          "Y888F"
         ]
-      }
-    },
-    "NODE_0000532": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
       }
     },
     "NODE_0000533": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "I264V",
-          "S1184F"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000534": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000535": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3696,13 +3655,15 @@
     },
     "NODE_0000540": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "V1160I"
+        ]
       }
     },
     "NODE_0000541": {
       "aa_muts": {
         "WNVNY99_gp1": [
-          "T1015M"
+          "R769K"
         ]
       }
     },
@@ -3721,7 +3682,12 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000545": {
+    "NODE_0000546": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000547": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3731,19 +3697,9 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000551": {
-      "aa_muts": {
-        "WNVNY99_gp1": [
-          "V724M",
-          "Y1144F"
-        ]
-      }
-    },
     "NODE_0000552": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "S99G"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000553": {
@@ -3813,11 +3769,6 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000566": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000567": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -3833,17 +3784,17 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000572": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000574": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000577": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000578": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000580": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3860,9 +3811,7 @@
     },
     "NODE_0000583": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "I985V"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000584": {
@@ -3872,7 +3821,9 @@
     },
     "NODE_0000585": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "S800G"
+        ]
       }
     },
     "NODE_0000586": {
@@ -3880,29 +3831,24 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000587": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000588": {
       "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000589": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "S441T"
+        ]
       }
     },
     "NODE_0000593": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "V142I"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000594": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000595": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3913,13 +3859,6 @@
       }
     },
     "NODE_0000597": {
-      "aa_muts": {
-        "WNVNY99_gp1": [
-          "M820V"
-        ]
-      }
-    },
-    "NODE_0000598": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3944,24 +3883,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000603": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000604": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000605": {
-      "aa_muts": {
-        "WNVNY99_gp1": [
-          "A240V"
-        ]
-      }
-    },
-    "NODE_0000606": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3976,17 +3898,17 @@
         "WNVNY99_gp1": []
       }
     },
+    "NODE_0000609": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
     "NODE_0000610": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000611": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000612": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -3998,9 +3920,7 @@
     },
     "NODE_0000614": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "S800G"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000615": {
@@ -4008,19 +3928,37 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000616": {
+    "NODE_0000618": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000617": {
+    "NODE_0000619": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "S441T"
-        ]
+        "WNVNY99_gp1": []
       }
     },
-    "NODE_0000618": {
+    "NODE_0000620": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000621": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000622": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000623": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000624": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -4035,19 +3973,11 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000627": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000628": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000629": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "I985V"
+        ]
       }
     },
     "NODE_0000630": {
@@ -4065,11 +3995,6 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000633": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000634": {
       "aa_muts": {
         "WNVNY99_gp1": []
@@ -4077,7 +4002,9 @@
     },
     "NODE_0000635": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "A240V"
+        ]
       }
     },
     "NODE_0000636": {
@@ -4097,7 +4024,9 @@
     },
     "NODE_0000639": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "V142I"
+        ]
       }
     },
     "NODE_0000640": {
@@ -4195,17 +4124,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000659": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000660": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000661": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -4257,14 +4176,14 @@
     },
     "NODE_0000671": {
       "aa_muts": {
-        "WNVNY99_gp1": [
-          "A897T"
-        ]
+        "WNVNY99_gp1": []
       }
     },
     "NODE_0000672": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "A897T"
+        ]
       }
     },
     "NODE_0000673": {
@@ -4277,27 +4196,7 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000675": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000676": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000677": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000678": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000679": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -4317,34 +4216,29 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000684": {
+    "NODE_0000683": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000685": {
+    "NODE_0000684": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000686": {
       "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000687": {
+      "aa_muts": {
         "WNVNY99_gp1": [
           "T568N"
         ]
       }
     },
-    "NODE_0000687": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000688": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000689": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -4354,7 +4248,12 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000692": {
+    "NODE_0000691": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000697": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -4369,12 +4268,17 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000700": {
+    "NODE_0000701": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000701": {
+    "NODE_0000702": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000703": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -4429,17 +4333,17 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000716": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000717": {
+    "NODE_0000714": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
     "NODE_0000718": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000719": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -4465,6 +4369,16 @@
       }
     },
     "NODE_0000725": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000726": {
+      "aa_muts": {
+        "WNVNY99_gp1": []
+      }
+    },
+    "NODE_0000727": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
@@ -4504,41 +4418,26 @@
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000735": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000736": {
-      "aa_muts": {
-        "WNVNY99_gp1": []
-      }
-    },
     "NODE_0000737": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000738": {
+    "NODE_0000740": {
       "aa_muts": {
         "WNVNY99_gp1": []
       }
     },
-    "NODE_0000739": {
+    "NODE_0000744": {
       "aa_muts": {
         "WNVNY99_gp1": []
-      }
-    },
-    "NODE_0000747": {
-      "aa_muts": {
-        "WNVNY99_gp1": [
-          "V522A"
-        ]
       }
     },
     "NODE_0000749": {
       "aa_muts": {
-        "WNVNY99_gp1": []
+        "WNVNY99_gp1": [
+          "V522A"
+        ]
       }
     },
     "NODE_0000756": {
@@ -6275,6 +6174,7 @@
       "aa_muts": {
         "WNVNY99_gp1": [
           "F278V",
+          "M820V",
           "V1036A"
         ]
       }
@@ -7418,6 +7318,23 @@
     "WNVxx2111821xxCtxxAZxx20210923": {
       "aa_muts": {
         "WNVNY99_gp1": [
+          "I913X",
+          "L914-",
+          "F915-",
+          "A916-",
+          "P917-",
+          "E918-",
+          "L919-",
+          "A920-",
+          "N921-",
+          "N922-",
+          "T923-",
+          "F924-",
+          "V925-",
+          "V926-",
+          "D927-",
+          "G928-",
+          "P929-",
           "T931D",
           "E933S",
           "C934S",
@@ -7425,10 +7342,25 @@
           "T936W",
           "Q937L",
           "N938T",
+          "R939-",
+          "A940-",
+          "W941-",
+          "N942-",
+          "S943-",
+          "L944-",
+          "E945-",
+          "V946-",
+          "E947-",
+          "D948-",
+          "F949-",
+          "G950-",
+          "F951-",
+          "G952X",
           "S955T",
           "T956N",
           "R957L",
-          "M958V"
+          "M958V",
+          "*1196X"
         ]
       }
     },
@@ -7488,6 +7420,6 @@
     }
   },
   "reference": {
-    "WNVNY99_gp1": "MSKKPGGPGKSRAVNMLKRGMPRVLSLIGLKRAMLSLIDGKGPIRFVLALLAFFRFTAIAPTRAVLDRWRGVNKQTAMKHLLSFKKELGTLTSAINRRSSKQKKRGGKTGIAVMIGLIASVGAVTLSNFQGKVMMTVNATDVTDVITIPTAAGKNLCIVRAMDVGYMCDDTITYECPVLSAGNDPEDIDCWCTKSAVYVRYGRCTKTRHSRRSRRSLTVQTHGESTLANKKGAWMDSTKATRYLVKTESWILRNPGYALVAAVIGWMLGSNTMQRVVFVVLLLLVAPAYSFNCLGMSNRDFLEGVSGATWVDLVLEGDSCVTIMSKDKPTIDVKMMNMEAANLAEVRSYCYLATVSDLSTKAACPTMGEAHNDKRADPAFVCRQGVVDRGWGNGCGLFGKGSIDTCAKFACSTKAIGRTILKENIKYEVAIFVHGPTTVESHGNYSTQAGATQAGRFSITPAAPSYTLKLGEYGEVTVDCEPRSGIDTNAYYVMTVGTKTFLVHREWFMDLNLPWSSAGSTVWRNRETLMEFEEPHATKQSVIALGSQEGALHQALAGAIPVEFSSNTVKLTSGHLKCRVKMEKLQLKGTTYGVCSKAFKFLGTPADTGHGTVVLELQYTGTDGPCKVPISSVASLNDLTPVGRLVTVNPFVSVATANAKVLIELEPPFGDSYIVVGRGEQQINHHWHKSGSSIGKAFTTTLKGAQRLAALGDTAWDFGSVGGVFTSVGKAVHQVFGGAFRSLFGGMSWITQGLLGALLLWMGINARDRSIALTFLAVGGVLLFLSVNVHADTGCAIDISRQELRCGSGVFIHNDVEAWMDRYKYYPETPQGLAKIIQKAHKEGVCGLRSVSRLEHQMWEAVKDELNTLLKENGVDLSVVVEKQEGMYKSAPKRLTATTEKLEIGWKAWGKSILFAPELANNTFVVDGPETKECPTQNRAWNSLEVEDFGFGLTSTRMFLKVRESNTTECDSKIIGTAVKNNLAIHSDLSYWIESRLNDTWKLERAVLGEVKSCTWPETHTLWGDGILESDLIIPVTLAGPRSNHNRRPGYKTQNQGPWDEGRVEIDFDYCPGTTVTLSESCGHRGPATRTTTESGKLITDWCCRSCTLPPLRYQTDSGCWYGMEIRPQRHDEKTLVQSQVNAYNADMIDPFSVGPSGRVLGHPGGPSQEVDSQDQHASYTDCSASPGVWGHYLH*"
+    "WNVNY99_gp1": "MSKKPGGPGKSRAVNMLKRGMPRVLSLIGLKRAMLSLIDGKGPIRFVLALLAFFRFTAIAPTRAVLDRWRGVNKQTAMKHLLSFKKELGTLTSAINRRSSKQKKRGGKTGIAVMIGLIASVGAVTLSNFQGKVMMTVNATDVTDVITIPTAAGKNLCIVRAMDVGYMCDDTITYECPVLSAGNDPEDIDCWCTKSAVYVRYGRCTKTRHSRRSRRSLTVQTHGESTLANKKGAWMDSTKATRYLVKTESWILRNPGYALVAAVIGWMLGSNTMQRVVFVVLLLLVAPAYSFNCLGMSNRDFLEGVSGATWVDLVLEGDSCVTIMSKDKPTIDVKMMNMEAANLAEVRSYCYLATVSDLSTKAACPTMGEAHNDKRADPAFVCRQGVVDRGWGNGCGLFGKGSIDTCAKFACSTKAIGRTILKENIKYEVAIFVHGPTTVESHGNYSTQVGATQAGRFSITPAAPSYTLKLGEYGEVTVDCEPRSGIDTNAYYVMTVGTKTFLVHREWFMDLNLPWSSAGSTVWRNRETLMEFEEPHATKQSVIALGSQEGALHQALAGAIPVEFSSNTVKLTSGHLKCRVKMEKLQLKGTTYGVCSKAFKFLGTPADTGHGTVVLELQYTGTDGPCKVPISSVASLNDLTPVGRLVTVNPFVSVATANAKVLIELEPPFGDSYIVVGRGEQQINHHWHKSGSSIGKAFTTTLKGAQRLAALGDTAWDFGSVGGVFTSVGKAVHQVFGGAFRSLFGGMSWITQGLLGALLLWMGINARDRSIALTFLAVGGVLLFLSVNVHADTGCAIDISRQELRCGSGVFIHNDVEAWMDRYKYYPETPQGLAKIIQKAHKEGVCGLRSVSRLEHQMWEAVKDELNTLLKENGVDLSVVVEKQEGMYKSAPKRLTATTEKLEIGWKAWGKSILFAPELANNTFVVDGPETKECPTQNRAWNSLEVEDFGFGLTSTRMFLKVRESNTTECDSKIIGTAVKNNLAIHSDLSYWIESRLNDTWKLERAVLGEVKSCTWPETHTLWGDGILESDLIIPVTLAGPRSNHNRRPGYKTQNQGPWDEGRVEIDFDYCPGTTVTLSESCGHRGPATRTTTESGKLITDWCCRSCTLPPLRYQTDSGCWYGMEIRPQRHDEKTLVQSQVNAYNADMIDPFSVGPSGRVLGHPGGPSQEVDSQDQHASYTDCSASPGVWGHYLH*"
   }
 }
